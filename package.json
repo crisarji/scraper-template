@@ -1,0 +1,25 @@
+{
+  "name": "scrapper-template",
+  "version": "0.0.0",
+  "description": "Scrapper template to be used with Node, Express, Puppeteer and Nodemailer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "crisarji",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.6.2",
+    "puppeteer": "^10.1.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "nodemon": "^2.0.9",
+    "prettier": "^2.3.2"
+  }
+}
